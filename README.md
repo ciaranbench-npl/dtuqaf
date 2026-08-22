@@ -14,6 +14,9 @@ The workflow supports:
 - calculating calibration, and cost-coverage measures; and
 - producing figures and summary statistics for reproducibility studies.
 
+##Dataset
+Dataset access and preprocessing instructions are maintained separately from this repository here: 
+```@article{moulaeifard2025machine, title={Machine-learning for photoplethysmography analysis: Benchmarking feature, image, and signal-based approaches}, author={Moulaeifard, Mohammad and Coquelin, Loic and Rinkevi{\v{c}}ius, Mantas and Solo{\v{s}}enko, Andrius and Pfeffer, Oskar and Bench, Ciaran and Hegemann, Nando and Vardanega, Sara and Nandi, Manasi and Alastruey, Jordi and others}, journal={arXiv preprint arXiv:2502.19949}, year={2025} }```
 
 ## Method Summary
 
