@@ -1,4 +1,3 @@
-# Author: Ciaran Bench
 # Disclaimer: This code is provided solely for the purpose of reproducing results as described in the associated work. 
 # The authors and contributors are not responsible for any consequences arising from the use of this code or its outputs 
 # beyond this intended purpose. Use at your own risk.
@@ -18,8 +17,8 @@ def get_args_BP():
     parser.add_argument('--h0', type=float, default=0.001, help='Initialisation value (default: 0.001)')
     parser.add_argument('--train-samples', type=int, default=60, help='Number of training samples for ivon (default: 60)')
     parser.add_argument('--dr', type=float, default=0.3, help='Dropout rate (default: 0.3)')
-    parser.add_argument('--model_dir', type = str, default = '/home/cb25/hpc-work/spurious-uq/mcd-ivon-ppg/', help='Dir to store the checkpoints/loss')
-    parser.add_argument('--data_dir', type = str, default = '/home/cb25/hpc-work/ivon-bnn/bp_data', help='Dir containing training data')
+    parser.add_argument('--model_dir', type = str, default = '<path>', help='Dir to store the checkpoints/loss')
+    parser.add_argument('--data_dir', type = str, default = '<path>', help='Dir containing training data')
     parser.add_argument('--checkpoint-path', type = str, default = '', help='path to model checkpoint')
     parser.add_argument('--zero', type = float, default = 1, help='zero fraction')
     parser.add_argument('--noise', type = float, default = .5, help='noise fraction')
@@ -52,9 +51,9 @@ def get_args_AF():
     parser.add_argument('--h0', type=float, default=0.001, help='Initial hidden state value (default: 0.001)')
     parser.add_argument('--train-samples', type=int, default=60, help='Number of training samples (default: 60)')
     parser.add_argument('--dr', type=float, default=0.05, help='Dropout rate (default: 0.05)')
-    parser.add_argument('--model_dir', type = str, default = '/home/cb25/hpc-work/conformal-nms/spurious-uq/mcd-ivon-ppg', help='Dir to store the checkpoints/loss')
-    parser.add_argument('--data_dir', type = str, default = '/home/cb25/hpc-work/old_min/ivon-bnn/af_data', help='Dir containing training data')
-    parser.add_argument('--checkpoint-path', type = str, default = '/home/cb25/hpc-work/old_min/ivon-bnn/public_repo/mcd_af/checkpoint_epoch_110.pth', help='path to model checkpoint')
+    parser.add_argument('--model_dir', type = str, default = '<path>', help='Dir to store the checkpoints/loss')
+    parser.add_argument('--data_dir', type = str, default = '<path>', help='Dir containing training data')
+    parser.add_argument('--checkpoint-path', type = str, default = '<path>', help='path to model checkpoint')
     parser.add_argument('--calib',action='store_true')
     parser.add_argument('--noise',type=float, default=0.0)
     parser.add_argument('--addnoise',action='store_true')
