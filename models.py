@@ -1,4 +1,3 @@
-# Author: Ciaran Bench
 # Disclaimer: This code is provided solely for the purpose of reproducing results as described in the associated work. 
 # The authors and contributors are not responsible for any consequences arising from the use of this code or its outputs 
 # beyond this intended purpose. Use at your own risk.
