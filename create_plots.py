@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Author: Ciaran Bench
 # Disclaimer: This code is provided solely for the purpose of reproducing
 # results as described in the associated work. The authors and contributors
 # are not responsible for any consequences arising from the use of this code
@@ -330,7 +329,7 @@ def plot_clean_and_noisy_af_signals(
 def main():
     """Run the plot automatically when this file is executed."""
     # Directory containing metadata.csv and signals.npy.
-    data_dir = "/home/cb25/hpc-work/old_min/ivon-bnn/af_data"
+    data_dir = "<path>"
 
     # Position in the AF test dataset, not the original metadata row number.
     sample_index = 200
