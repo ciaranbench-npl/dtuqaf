@@ -3,7 +3,7 @@
 # beyond this intended purpose. Use at your own risk.
 
 """
-Disclaimer: This code is adapted from the work cited below under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This licence permits sharing and adaptation, provided appropriate credit is given to the original authors and source. The code may include modifications made for the present analysis and should not be treated as an exact reproduction of the original implementation.
+This code is adapted from the work cited below under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This licence permits sharing and adaptation, provided appropriate credit is given to the original authors and source. The code may include modifications made for the present analysis and should not be treated as an exact reproduction of the original implementation.
 
 @article{bench2025uncertainty,
   title={Uncertainty quantification with approximate variational learning for wearable photoplethysmography prediction tasks},
