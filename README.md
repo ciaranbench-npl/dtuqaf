@@ -18,6 +18,22 @@ The workflow supports:
 Dataset access and preprocessing instructions are maintained separately from this repository here: 
 ```@article{moulaeifard2025machine, title={Machine-learning for photoplethysmography analysis: Benchmarking feature, image, and signal-based approaches}, author={Moulaeifard, Mohammad and Coquelin, Loic and Rinkevi{\v{c}}ius, Mantas and Solo{\v{s}}enko, Andrius and Pfeffer, Oskar and Bench, Ciaran and Hegemann, Nando and Vardanega, Sara and Nandi, Manasi and Alastruey, Jordi and others}, journal={arXiv preprint arXiv:2502.19949}, year={2025} }```
 
+
+Other code is adapted from source code released under the Apache License 2.0 and associated with the publication cited below. The Apache License 2.0 permits use, modification, and distribution subject to its terms, including preservation of the applicable copyright, licence, and attribution notices. The adapted code may contain modifications made for the present analysis and should not be treated as an exact reproduction of the original implementation.
+```
+@article{bench2025uncertainty,
+  title={Uncertainty quantification with approximate variational learning for wearable photoplethysmography prediction tasks},
+  author={Bench, Ciaran and Desai, Vivek and Moulaeifard, Mohammad and Strodthoff, Nils and Aston, Philip and Thompson, Andrew},
+  journal={Machine Learning: Health},
+  volume={1},
+  number={1},
+  pages={015013},
+  year={2025},
+  publisher={IOP Publishing},
+  doi={10.1088/3049-477X/ae0b74}
+}
+```
+
 ## Method Summary
 
 ### 1. Model training
